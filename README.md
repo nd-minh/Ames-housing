@@ -5,3 +5,11 @@ In this project, we will pretend that we are working in the city council of Ames
 1. Can we predict the house prices in Ames?
 2. If yes, how well can we predict the house price?
 3. Other than prediction, what are the factors that most influence house prices in Ames?
+
+The dataset we use in this project is released by Iowa's Assessor Office. It has 2,930 observations of 82 variables. Using 8 out of these 82 variables, we will show that we are able to capture 79.6% the variance when predicting the sale price of the houses. The workflow in this project is as follows:
+- Wrangling data to get it ready for analysis
+- Performing Exploratory Data Analysis to check the conditions for Linear Regression Model
+- Building models to predict houses price using k-nearest neighbor regressors and linear regression
+- Comparing the result and draw conclusion
+
+Details and the results of the project are reported in the `Predicting house prices in Ames, Iowa.ipynb` notebook.
